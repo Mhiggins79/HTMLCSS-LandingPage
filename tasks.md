@@ -21,20 +21,19 @@ You can also run a visual test using the command `npm run visual:module1`, repla
 ## Previewing Your Work
 
 In order to see your changes in a browser, you can run `npm start` from the command line. This will open a browser and you should see your landing page.
-
 # Module 01 - Utility Classes
 
 ## 1.1 - Container
 
-@container To center content in the body of the page we'll need to create a container that is positioned and styled in CSS and then this class will be applied to several HTML elements in our `index.html`. 
+@container To center content in the body of the page we'll need to create a container that is positioned and styled in CSS and then this class will be applied to several HTML elements in our `index.html`.
 
-To start, in the 'css/main.css' file create a `.container` class that sets the `top` and `bottom` margins to `0` and the `left` and `right` to `auto`. 
+To start, in the 'css/main.css' file create a `.container` class that sets the `top` and `bottom` margins to `0` and the `left` and `right` to `auto`.
 
 Set the `max-width` to `1170px`.
 
 ## 1.2 - Container Class Attribute
 
-@container-class-attribute This task applies the CSS that you wrote in the previous step so that you can see how it affects the rendered HTML.  This is a pattern that you'll be following often in this project - write some CSS, then apply it to HTML. 
+@container-class-attribute This task applies the CSS that you wrote in the previous step so that you can see how it affects the rendered HTML.  This is a pattern that you'll be following often in this project - write some CSS, then apply it to HTML.
 
 Add the `container` class that was just created to the following HTML elements in `index.html`:
 
@@ -55,9 +54,9 @@ Add the `container` class that was just created to the following HTML elements i
 - `.flex-column` - `flex-direction: column`
 - `.flex-one` - `flex: 1`
 
-## 1.5 - Flex Class Attribute 
+## 1.5 - Flex Class Attribute
 
-@flex-utilities-class-attribute Now, apply the `flex` utility class to several HTML elements in the `index.html` file: 
+@flex-utilities-class-attribute Now, apply the `flex` utility class to several HTML elements in the `index.html` file:
 
 `flex`
 - First `<div>` in the `<nav>`.
@@ -72,7 +71,7 @@ Add the `container` class that was just created to the following HTML elements i
 
 ## 1.6 - Flex Column and Flex One Class Attributes
 
-@flex-column-one-class-attributes Now, apply the `flex-column` and `flex-one` utility classes to these HTML elements in `index.html` : 
+@flex-column-one-class-attributes Now, apply the `flex-column` and `flex-one` utility classes to these HTML elements in `index.html` :
 
 `flex-column`
 
@@ -96,7 +95,7 @@ Add the `container` class that was just created to the following HTML elements i
 
 ## 1.8 - Alignment Flex Utilities Class Attributes
 
-@flex-alignment-utilities-class-attributes We will apply these new alignment flex classes to several HTML elements in the `index.html` file: 
+@flex-alignment-utilities-class-attributes We will apply these new alignment flex classes to several HTML elements in the `index.html` file:
 
 `align-center`
 
@@ -110,7 +109,7 @@ Add the `container` class that was just created to the following HTML elements i
 
 ## 1.9 - Space Between Utilities Class Attributes
 
-@flex-space-between-utilities-class-attribute We will apply these new alignment flex classes to several HTML elements in the `index.html` file: 
+@flex-space-between-utilities-class-attribute We will apply these new alignment flex classes to several HTML elements in the `index.html` file:
 
 `center`
 - First `<div>` in the `<!-- HERO -->` `<section>`.
@@ -152,15 +151,15 @@ This class should change the `display` to `block`, and add padding of `6px` top/
 
 ## 1.14 - Typography
 
-@typography-utilities There are some base typographic styles we'll use throughout the page. 
+@typography-utilities There are some base typographic styles we'll use throughout the page.
 
 In the main stylesheet, below the `.form-control` class, add three classes: `.text-light`, `.text-secondary`, and `.text-primary`.
 
-The light class should have a font size of `30px` and a color of `#a0a0a0`. 
+The light class should have a font size of `30px` and a color of `#a0a0a0`.
 
 The secondary font size is also `30px` and the color is `#faa541`.
 
-The primary class needs a font size of `16px` and a color of `#364147`. 
+The primary class needs a font size of `16px` and a color of `#364147`.
 
 ## 1.15 - Typography Class Attributes
 
@@ -199,25 +198,25 @@ Open `main.css`, and below the other styles create a class called `.header-nav` 
 
 ## 2.3 - Logo
 
-@logo The logo needs to fit within the `170x85` container. To do this, create a `.logo` class that sets the `max-width` to `100%` and the `height` to `auto`. 
+@logo The logo needs to fit within the `170x85` container. To do this, create a `.logo` class that sets the `max-width` to `100%` and the `height` to `auto`.
 
 ## 2.4 - Header, Branding, and Logo Class Attributes
 
 @header-branding-logo-class-attributes Switch over to `index.html`  and we'll apply these newly created header and branding classes to the correct elements.
 
-Apply the `header-nav` class to the `<nav>`. 
+Apply the `header-nav` class to the `<nav>`.
 
-Find the `<!-- BRANDING -->` block and apply the `brand` class to the first `<div>` in the block. 
+Find the `<!-- BRANDING -->` block and apply the `brand` class to the first `<div>` in the block.
 
 Then, apply the `logo` class to the `<img>` tag with the `src` of `img/carved-rock-logo.png`.
 
 ## 2.5 - Search Box
 
-@search-box Lets get back to work on the styles on the next header element the search box. Create a new class below the existing styles called `.search-box`. The search box needs to be sized to `330x30` with `6px` padding top/bottom and `12px` left/right. Finally, give the search box a full `1px` border colored `#a0a0a0`. 
+@search-box Lets get back to work on the styles on the next header element the search box. Create a new class below the existing styles called `.search-box`. The search box needs to be sized to `330x30` with `6px` padding top/bottom and `12px` left/right. Finally, give the search box a full `1px` border colored `#a0a0a0`.
 
 ## 2.6 - Search Button
 
-@search-button Another element of the header is the search button. Create a class called `.search-button`. The background color of the button should be `#a0a0a0` and the text color should be white(`#ffffff`). 
+@search-button Another element of the header is the search button. Create a class called `.search-button`. The background color of the button should be `#a0a0a0` and the text color should be white(`#ffffff`).
 
 Its size should be `100x30` pixels and the `border` and `padding` should be reset to `0`. **Hint: It is best practice to use `0` without the `px` unit.**
 
@@ -227,7 +226,7 @@ Its size should be `100x30` pixels and the `border` and `padding` should be rese
 
 ## 2.8 - Navigation List
 
-@navigation-list For the `.nav-list` class, zero out the left `padding`. Adjust the `width` of the list to `575px`. Add a top `margin` of `10px`. 
+@navigation-list For the `.nav-list` class, zero out the left `padding`. Adjust the `width` of the list to `575px`. Add a top `margin` of `10px`.
 
 ## 2.9 - Navigation List Links
 
@@ -257,26 +256,26 @@ In the `<!-- PROFILE -->` block assign the first `<div>` the class `profile`. Ad
 
 ## 3.1 - Hero Section
 
-@hero-section Moving further down the page, let's focus on styling the hero image and text. 
+@hero-section Moving further down the page, let's focus on styling the hero image and text.
 
-For the image, construct a class called `.hero` that adjusts several background properties. 
+For the image, construct a class called `.hero` that adjusts several background properties.
 
 Set `background-image` to `url('../img/hero.jpg')`, height to `400px`, and `background-size` to `cover`.
 
-Center the image horizontally and vertically using `background-position`. 
+Center the image horizontally and vertically using `background-position`.
 
-Finally, transform the text to `uppercase`. 
+Finally, transform the text to `uppercase`.
 
 ## 3.2 - Hero Headings
 
-@hero-headings To create a more visually appealing hero section we'll add some styling to the `<h1>` and `<h2>` elements. 
+@hero-headings To create a more visually appealing hero section we'll add some styling to the `<h1>` and `<h2>` elements.
 
 First, create a rule that selects the `<h1>` in the `.hero <div>`. Have that rule adjust the position of that `<div>` by making it relative and then move it to the left by -30px.
 
-Select all `<h2>` elements in the `.hero <div>` and change the text color to `#faa541`. 
-  
+Select all `<h2>` elements in the `.hero <div>` and change the text color to `#faa541`.
+
 Next, select both the `<h1>` and `<h2>` elements in the `.hero <div>` and set a few properties to make them consistent.
- 
+
 Adjust the font size to `63px`, bump up the font weight to `700`, and set the `line-height` to `0.9`.
 
 ## 3.3 - Hero Paragraph
@@ -289,7 +288,7 @@ Adjust the font size to `63px`, bump up the font weight to `700`, and set the `l
 
 ## 3.5 - Banner Container and Image
 
-@banner-container-image The sales banner is the first thing in the main content area of the page. Let's draw attention to it. 
+@banner-container-image The sales banner is the first thing in the main content area of the page. Let's draw attention to it.
 
 First, create a class called `.banner` and adjust the `margin` of the container set it to `55px 15px`. The banner is the full width of its parent so set `width` to `100%`. To set the banner apart from the rest of the content set the top border to `1px solid #a0a0a0` and the bottom border to `1px solid #a0a0a0`. Give each element some spacing by setting `padding` to `25px 0`.
 
@@ -317,42 +316,42 @@ Fix the `width` of the images to `250px` by selecting all `img` elements that ar
 
 @category After the sales banner we'll create a four column grid using the `flex` property.
 
-Create a rule with a selector of `.category`, set `flex` to `0 0 25%`. This will divide the space evenly in four columns. 
+Create a rule with a selector of `.category`, set `flex` to `0 0 25%`. This will divide the space evenly in four columns.
 
-We need to add a gap between the columns so set `padding` to `0 15px`. 
+We need to add a gap between the columns so set `padding` to `0 15px`.
 
 The images in these columns should be full width. Create a rule that selects the `<img>` elements that are descendants of any `.category` element and set `width` to `100%`.
 
 ## 3.10 - Category Text
 
-@category-text The text of each category should have the following properties declared in a rule with the selector `.category-text`: 
+@category-text The text of each category should have the following properties declared in a rule with the selector `.category-text`:
 
 - `color` - `#364147`
 - `padding` - `30px 0`
 - `text-transform` - `uppercase`
-- `text-align` - `center` 
+- `text-align` - `center`
 
 ## 3.11 - Category Text Divs
 
-@category-text-divs All `<div>`'s that are children(`>`) of a `.category-text` element should have the font properties: 
+@category-text-divs All `<div>`'s that are children(`>`) of a `.category-text` element should have the font properties:
 
 - `font-size` - `16px`
-- `font-weight` - `200` 
+- `font-weight` - `200`
 - `color` - `#faa541`
 
 ## 3.12 - Category Headings
 
-@category-headings All `<h3>` headings that are descendants of a `.category-text` element should have the font properties: 
+@category-headings All `<h3>` headings that are descendants of a `.category-text` element should have the font properties:
 
 - `font-size` - `30px`
-- `font-weight` - `700` 
+- `font-weight` - `700`
 - `line-height` - `1`
 
 ## 3.13 - Category Class Attributes
 
-@category-class-attributes Open `index.html` and locate the `<!-- CATEGORIES -->` block. 
+@category-class-attributes Open `index.html` and locate the `<!-- CATEGORIES -->` block.
 
-There are four top-level `<div>` elements in a `<section>`. Give each of these a `category` class. 
+There are four top-level `<div>` elements in a `<section>`. Give each of these a `category` class.
 
 Next, find the `<div>`'s after each image in the `category <div>'s` and apply a class of `category-text`.
 
@@ -360,9 +359,9 @@ Next, find the `<div>`'s after each image in the `category <div>'s` and apply a 
 
 ## 4.1 - Full Banner Container
 
-@full-banner-container After the categories, we'll create a Full Banner for Trail Reviews. It will have a picture covering 60% of the main container and a sidebar covering the rest. 
+@full-banner-container After the categories, we'll create a Full Banner for Trail Reviews. It will have a picture covering 60% of the main container and a sidebar covering the rest.
 
-To start, create a `.full-banner` class that sets some box model properties. Set `padding` to `0 15px`,and `margin` to `50px 0`. Set the `position` to `relative` so that we can create an inset border next. 
+To start, create a `.full-banner` class that sets some box model properties. Set `padding` to `0 15px`,and `margin` to `50px 0`. Set the `position` to `relative` so that we can create an inset border next.
 
 ## 4.2 - Full Banner Border
 
@@ -372,13 +371,13 @@ Because we used `relative` positioning for the `.full-banner`, we can use absolu
 
 ## 4.3 - Full Banner Image
 
-@full-banner-image Next, let's use the flex property to have the image take up 60% of the width of the banner. Set `flex` to `0 0 58.333333%` in a rule with a selector of `.full-banner-image`. 
+@full-banner-image Next, let's use the flex property to have the image take up 60% of the width of the banner. Set `flex` to `0 0 58.333333%` in a rule with a selector of `.full-banner-image`.
 
 Set, background image, size, and position to `vista.jpg`, `cover`, and `top center`, respectively. Set the minimum height of the image to `400px`.
 
 ## 4.4 - Full Banner Sidebar
 
-@full-banner-sidebar The text of the banner is on the right and takes up 40% of the width of the banner, so use flex: 0 0 41.666667% in a rule with a selector of .full-banner-sidebar to adjust this. 
+@full-banner-sidebar The text of the banner is on the right and takes up 40% of the width of the banner, so use flex: 0 0 41.666667% in a rule with a selector of .full-banner-sidebar to adjust this.
 
 Set the `background-color` to `#364147`, transform the text to uppercase, add `padding` of `30px` and change the text color to white(`#ffffff`).
 
@@ -388,7 +387,7 @@ Set the `background-color` to `#364147`, transform the text to uppercase, add `p
 
 ## 4.6 - Full Banner Sidebar Text Decoration
 
-@full-banner-sidebar-text-decoration Let's create a decorative element after the heading. This element will be after the `.full-banner-sidebar h4` element. Add the `:after` pseudo class  to this selector to create a rule with the following declarations: 
+@full-banner-sidebar-text-decoration Let's create a decorative element after the heading. This element will be after the `.full-banner-sidebar h4` element. Add the `:after` pseudo class  to this selector to create a rule with the following declarations:
 
 - `content` - `""`
 - `width` & `height` - `100x1` pixels
@@ -398,7 +397,7 @@ Set the `background-color` to `#364147`, transform the text to uppercase, add `p
 
 ## 4.7 - Full Banner Sidebar Text Styling
 
-@full-banner-sidebar-styling For the text below the heading we're going to adjust a few properties. Select the first `<div>` in the side bar using the group of selectors `.full-banner-sidebar > div:nth-of-type(1)`, and set the following: 
+@full-banner-sidebar-styling For the text below the heading we're going to adjust a few properties. Select the first `<div>` in the side bar using the group of selectors `.full-banner-sidebar > div:nth-of-type(1)`, and set the following:
 
 - `font-size` - `60px`
 - `font-weight` - `700`
@@ -412,7 +411,7 @@ Select the second `<div>` in the side bar using the group of selectors `.full-ba
 
 ## 4.8 - Full Banner Sidebar Button
 
-@full-banner-sidebar-button Finally, let's create a rule to style the button in the sidebar. Select the button using `.full-banner-sidebar .btn.btn-default` - a top margin of `50px`, make the text `uppercase` and change the letter spacing to `1px`. Make sure the button is first in the stacking order by changing the `z-index` to `1`. 
+@full-banner-sidebar-button Finally, let's create a rule to style the button in the sidebar. Select the button using `.full-banner-sidebar .btn.btn-default` - a top margin of `50px`, make the text `uppercase` and change the letter spacing to `1px`. Make sure the button is first in the stacking order by changing the `z-index` to `1`.
 
 ## 4.9 - Full Banner Class Attributes
 
@@ -422,13 +421,13 @@ Select the second `<div>` in the side bar using the group of selectors `.full-ba
 
 ## 5.1 - Footer
 
-@footer The footer completes the landing page. It is divided into two sections - the footer links and a demonstration message. 
+@footer The footer completes the landing page. It is divided into two sections - the footer links and a demonstration message.
 
-To style the footer open `main.css` and and create a rule that selects the `<footer>` element. Make it a flex container with `flex-wrap` enabled(`wrap`). Set `position` to `relative`, `z-index` to `0`, and minimum height to `330px`. Make the background color `black`. 
+To style the footer open `main.css` and and create a rule that selects the `<footer>` element. Make it a flex container with `flex-wrap` enabled(`wrap`). Set `position` to `relative`, `z-index` to `0`, and minimum height to `330px`. Make the background color `black`.
 
 ## 5.2 - Footer Sidebar
 
-@footer-sidebar Dynamically set the content after the footer to `""`. **Hint: Use the `:after` pseudo-class.** This will create a sidebar. 
+@footer-sidebar Dynamically set the content after the footer to `""`. **Hint: Use the `:after` pseudo-class.** This will create a sidebar.
 
 In the same rule(`footer:after`), Set the background color of the sidebar to `#a0a0a0` and set the width to `75%`.
 
@@ -448,8 +447,8 @@ Set the `position` of the sidebar to `absolute`. Now that the element is `absolu
 
 ## 5.6 - Link Class Attributes
 
-@link-class-attributes The first `<section>` in the 
-`<footer>` should be given a class of `lists`. Add the `link-header` class to the following elements: 
+@link-class-attributes The first `<section>` in the
+`<footer>` should be given a class of `lists`. Add the `link-header` class to the following elements:
 
 - `<div>` in footer with contents `Customer Support`
 - `<div>` in footer with contents `Company Info`
@@ -458,9 +457,9 @@ Set the `position` of the sidebar to `absolute`. Now that the element is `absolu
 
 ## 5.7 - Social Links
 
-@social-links To help style the social links in the footer, create a rule that has a selector of `.social ul li` and sets the display to `inline-block`. 
+@social-links To help style the social links in the footer, create a rule that has a selector of `.social ul li` and sets the display to `inline-block`.
 
-The links in the social list (`.social ul li a`), should have the following styles: 
+The links in the social list (`.social ul li a`), should have the following styles:
 
 - `display` - `block`
 - `width` and `height` - `23px`
@@ -478,7 +477,7 @@ The links in the social list (`.social ul li a`), should have the following styl
 
 @newsletter-headers Below the social icons there is a newsletter section. This block has two `<div>`'s that need styling. Create two rules, one that has the selector `.newsletter .link-header` and has the properties:
 
-- `font-size` - `12px` 
+- `font-size` - `12px`
 - `font-weight` - `400`
 - `margin-bottom` - `5px`
 
@@ -486,9 +485,9 @@ The second should have a selector of `.newsletter .link-subheader` and declarati
 
 ## 5.11 - Newsletter Form
 
-@newsletter-form In this newsletter section there is also an `<input>` and a `<button>`. To select just this `<input>`create use the selector `.newsletter input`. The `<input>` should have a `border` of `1px solid #364147`,  `width` of `200px` and bottom margin of `10px`. 
+@newsletter-form In this newsletter section there is also an `<input>` and a `<button>`. To select just this `<input>`create use the selector `.newsletter input`. The `<input>` should have a `border` of `1px solid #364147`,  `width` of `200px` and bottom margin of `10px`.
 
-Select just this `<button>` with `.newsletter button` and style it with these properties: 
+Select just this `<button>` with `.newsletter button` and style it with these properties:
 - `width` - `150px`
 - `min-width` - `auto`
 - `text-transform` - `uppercase`
@@ -500,8 +499,8 @@ Select just this `<button>` with `.newsletter button` and style it with these pr
 
 ## 5.13 - Pluralsight Demo Container
 
-@pluralsight-demo-container The final section of the page is a notification that this site was made for demonstration purpose only. To style it, create a rule that has a selector of `.ps`, and add the following properties: 
- 
+@pluralsight-demo-container The final section of the page is a notification that this site was made for demonstration purpose only. To style it, create a rule that has a selector of `.ps`, and add the following properties:
+
 - `flex` - `0 0 25%`
 - `padding` - `40px 0`
 - `color` - `#e5e5e5`
@@ -512,7 +511,7 @@ The Pluralsight logo in this section should have a `max-width` of `230px`.
 ## 5.14 - Pluralsight Demo Styles
 
 @pluralsight-demo-styles Create a rule with the selector `.demo`  
-and add a padding of `0 30px`. Before this `demo` section (`.demo:before`) add these properties: 
+and add a padding of `0 30px`. Before this `demo` section (`.demo:before`) add these properties:
 
 - `content` - `""`
 - `display` - `block`
