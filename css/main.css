@@ -144,3 +144,7 @@ section {
   max-width: 100%; 
 }
 
+.hero{
+  background-image: url("img\hero.jpg");
+}
+
