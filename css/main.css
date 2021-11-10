@@ -96,10 +96,12 @@ section {
   max-width: 100%;
   height: auto;
 }
+
 .search-box{
   block-size: 330px 30px;
   padding: 6px 12px 6px 12px;
   border: #a0a0a0;
+  border-width: 1px;
 }
 .search-button{
   background-color: #a0a0a0;
