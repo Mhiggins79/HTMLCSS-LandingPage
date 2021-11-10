@@ -91,9 +91,10 @@ section {
   margin-left: -15px;
   margin-right: 60px;
 }
+
 .logo{
   max-width: 100%;
-  max-height: auto;
+  height: auto;
 }
 .search-box{
   block-size: 330px 30px;
