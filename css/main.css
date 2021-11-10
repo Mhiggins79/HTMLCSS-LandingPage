@@ -101,8 +101,8 @@ section {
   width: 330px; 
   height: 30px;
   padding: 6px 12px 6px 12px;
-  border: #a0a0a0;
-  border-width: 1px;
+  border: 1px #a0a0a0
+  
 }
 .search-button{
   background-color: #a0a0a0;
