@@ -174,9 +174,11 @@ section {
   margin: 0 0 10px;
 }
 
-
-
-
-
-
+.banner{
+  margin: 55px 15px;
+  padding: 25px 0;
+  width: 100%;
+  border-top: 1px solid #a0a0a0;
+  border-bottom: 1px solid #a0a0a0;
+}
 
