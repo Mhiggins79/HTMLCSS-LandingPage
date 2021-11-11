@@ -290,3 +290,10 @@ section {
   letter-spacing: 3px;
 }
 
+.full-banner-sidebar .btn.btn-default{
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
