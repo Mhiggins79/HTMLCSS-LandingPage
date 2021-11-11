@@ -238,7 +238,10 @@ section {
   content: "";
   position: absolute;
   border: 1px solid #ffffff;
-  margin: 30px 50px;
+  top: 50px;
+  bottom: 30px;
+  left: 50px;
+  right: 50px;
   z-index: 1;
 }
 
