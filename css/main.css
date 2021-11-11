@@ -252,3 +252,39 @@ section {
   background-position: top center;
   min-height: 400px;
 }
+
+.full-banner-sidebar{
+  flex: 0 0 41.666667%;
+  padding: 30px;
+  color: #ffffff;
+}
+
+.full-banner-sidebar h4{
+  font-size: 40px;
+  font-weight: 700;
+  color: #637f94;
+  font-style: italic;
+  line-height: 1;
+}
+
+.full-banner-sidebar-text-decoration:after{
+  content: "";
+  width: 100px;
+  height: 1px;
+  background-color: #faa541;
+  margin: 20px auto;
+  display: block;
+}
+
+.full-banner-sidebar > div:nth-of-type(1){
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.full-banner-sidebar > div:nth-of-type(2){
+  font-size: 25px;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+
