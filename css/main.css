@@ -182,3 +182,7 @@ section {
   border-bottom: 1px solid #a0a0a0;
 }
 
+.banner-img{
+  max-width: 250px;
+}
+
