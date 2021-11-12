@@ -320,10 +320,7 @@ section {
 
 .lists{
   flex: 0 0 75%;
-  left: 15px;
-  right: 15px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 15px;
 }
 
 .link-header{
