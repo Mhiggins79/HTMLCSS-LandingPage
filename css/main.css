@@ -307,6 +307,7 @@ section {
 }
 
 .footer::after{
+  content: "";
   background-color: #a0a0a0;
   width: 75%;
   position: absolute;
