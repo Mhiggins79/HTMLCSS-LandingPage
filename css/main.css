@@ -341,3 +341,13 @@ footer a:hover{
   text-decoration: underline;
 }
 
+.social ul li{
+  display: inline-block;
+}
+
+.social ul li a{
+  display: block;
+  width: 23px;
+  height: 23px;
+  background: 23px 23px center;
+}
