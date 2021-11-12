@@ -352,3 +352,20 @@ footer a:hover{
   background-size: 23px 23px;
   background-position: center;
 }
+
+.twitter{
+  background-image: url("http://www.w3.org/2000/svg");
+}
+
+.facebook{
+  background-image: url("http://www.w3.org/2000/svg");
+}
+
+.instagram{
+  background-image: url("http://www.w3.org/2000/svg");
+}
+
+.pinterest{
+  background-image: url("http://www.w3.org/2000/svg");
+}
+
