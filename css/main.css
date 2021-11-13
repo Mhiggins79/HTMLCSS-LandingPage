@@ -395,3 +395,29 @@ footer a:hover{
   letter-spacing: 1px;
 }
 
+.ps{
+  flex: 0 0 25%;
+  padding: 40px 0;
+  color: #e5e5e5;
+  font-size: 16px;
+}
+
+.ps img{
+  max-width: 230px;
+}
+
+.demo::before{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-blend-mode: #f05a28 0 #e80a89 100%;
+}
+
+.copyright{
+  flex: 0 0 75%;
+  padding: 10px 0;
+  font-size: 12px;
+  text-align: center;
+}
+
