@@ -406,9 +406,10 @@ footer a:hover{
   max-width: 230px;
 }
 
-.demo{
+.demo {
   padding: 30px 0;
 }
+
 .demo:before {
   content: "";
   display: block;
